@@ -1,1 +1,223 @@
-/** Add any CSS you need to this file. */
+@media (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+}
+@import url("https://fonts.googleapis.com/css?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+.aboutUs {
+    margin-top: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 8em;
+    padding: 1em;
+
+    max-width: 500%;
+    min-width: 400px;
+
+    font-family: "Merienda", cursive;
+    font-size: 20px;
+}
+h1 {
+    text-align: start;
+    font-family: "Merienda", cursive;
+    font-size: 35px;
+}
+
+.storeName {
+    font-family: "Merienda", cursive;
+    color: whitesmoke;
+    font-size: 30;
+    text-align: center;
+}
+body {
+    background: black;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+.subscribe {
+    color: whitesmoke;
+    text-decoration: none;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 72.5%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: black;
+}
+header {
+    flex: 1;
+    background: #2f564f;
+    height: 40px;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.main-div {
+    flex: 6;
+    display: flex;
+    height: 100%;
+
+    background-color: #d7eef4;
+}
+
+#left-nav {
+    float: left;
+    margin: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#right-nav {
+    float: right;
+}
+
+#right-nav li {
+    display: inline-block;
+}
+
+footer {
+    clear: both;
+    background: #2f564f;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.header {
+    width: 1100px;
+    height: 250px;
+    margin: auto;
+}
+
+.main-nav {
+    flex: 1.5;
+
+    width: 250px;
+    background: #2f564f;
+    height: 100%;
+}
+.box-area {
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.single-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 205px;
+    height: 250px;
+    border-radius: 1%;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    transition: 0.3s;
+}
+.d-single-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 205px;
+    height: 300px;
+    border-radius: 1%;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    transition: 0.3s;
+}
+.hidden {
+    display: none;
+}
+.img-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 230px;
+    border: 2px solid #ddd;
+
+    background-size: cover;
+    background-position: center;
+}
+.d-img-area {
+    display: flex;
+    justify-content: center;
+
+    width: 180px;
+    height: 180px;
+    border: 2px solid #ddd;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+}
+.single-box:hover {
+    background: rgba(121, 165, 162, 1);
+    cursor: pointer;
+    color: #fff;
+}
+.d-single-box:hover {
+    background: rgba(121, 165, 162, 1);
+    cursor: pointer;
+    color: #fff;
+}
+.header-text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.d-header-text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.main-nav a {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: whitesmoke;
+    display: block;
+    padding: 20px 10px 20px 10px;
+    border-bottom: 1px dotted gray;
+}
+#button {
+    width: 100px;
+    height: 50px;
+    background-color: #395544;
+    color: whitesmoke;
+    border: 0;
+    z-index: 1000;
+    border-radius: 3%;
+}
+#button:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.main-nav a:hover {
+    background: rgba(121, 165, 162, 1);
+}

@@ -235,11 +235,11 @@ var ball = [
             "Pack of 10 Christmas Balls: Green and Blue with crystal shine"
     },
     {
-        category: "b5",
+        category: "b3",
         alt: " Christmas Ball",
-        url: "images/b5.jpg",
+        url: "images/b3.jpg",
         price: "CAD 40",
-        description: "Pack of 10 Pink Christmas Balls"
+        description: "Pack of 8 Christmas Balls: Glitter"
     },
     {
         category: "b4",
@@ -249,21 +249,18 @@ var ball = [
         description: "Pack of 10 Assorted Christmas Balls"
     },
     {
-        category: "b3",
+        category: "b5",
         alt: " Christmas Ball",
-        url: "images/b3.jpg",
+        url: "images/b5.jpg",
         price: "CAD 40",
-        description:
-            "Pack of 8 Christmas Balls:  colour (blue and green) with gliter"
+        description: "Pack of 10 Pink Christmas Balls"
     },
-
     {
         category: "b6",
         alt: " Christmas Ball",
         url: "images/b6.jpg",
         price: "CAD 45",
-        description:
-            "Pack of 8 Crystal Christmas Balls, assorted, transparent. Colour- golden ,blue and copper"
+        description: "Pack of 8 Crystal Christmas Balls"
     }
 ];
 /* About Us information div*/
@@ -326,7 +323,7 @@ function show(value) {
         submit.innerHTML = "Buy Now";
         submit.id = "button";
 
-        submit.height = 30;
+        submit.height = 10;
         Dy_img_area.appendChild(Dimg);
 
         Dy_single_box.appendChild(Dy_img_area);
