@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wish Tree Christmas Store</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Merienda&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Caveat&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <ul id="left-nav">
+                <li class="storeName">
+                    <img
+                        src="images/logo.jpg"
+                        width="70"
+                        height="40"
+                        alt="logo"
+                    />
+                    WishTree
+                </li>
+            </ul>
+
+            <ul id="right-nav">
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </header>
+
+        <section>
+            <div class="header">
+                <img
+                    src="images/header.jpg"
+                    width="1092"
+                    height="250"
+                    alt="header"
+                />
+            </div>
+            <div class="main-div">
+                <nav class="main-nav">
+                    <ul class="main-nav-ul">
+                        <li>
+                            <div><a href="index.html">All Categories</a></div>
+                        </li>
+                        <li>
+                            <div id="chocolate1">
+                                <a href="#"> Chocolates</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="ball1"><a href="#"> Balls</a></div>
+                        </li>
+
+                        <li>
+                            <div id="light1"><a href="#">Lights</a></div>
+                        </li>
+
+                        <li>
+                            <div id="wreath1"><a href="#">Wreath</a></div>
+                        </li>
+                        <li>
+                            <div id="tree1"><a href="#">Christmas Tree</a></div>
+                        </li>
+                        <li>
+                            <div id="star1"><a href="#"> Stars</a></div>
+                        </li>
+                        <li>
+                            <div id="aboutUs"><a href="#"> About Us</a></div>
+                        </li>
+
+                        <li>
+                            <div><a href="contact.html"> Contact Us</a></div>
+                        </li>
+                        <li>
+                            <form
+                                id="form1"
+                                name="form1"
+                                method="POST"
+                                action="https://httpbin.org/post"
+                            >
+                                <label for="email" class="subscribe">
+                                    Subscribe </label
+                                ><input
+                                    type="email"
+                                    required
+                                    id="email"
+                                    name="email"
+                                    pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
+                                />
+                                <input type="submit" value="OK" />
+                            </form>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="box-area" id="div-items">
+                    <div class="single-box" id="tree">
+                        <div class="img-area">
+                            <img
+                                src="images/tree.jpg"
+                                width="190"
+                                height="220"
+                                alt="tree"
+                            />
+                        </div>
+                        <span class="header-text"
+                            ><strong>Christmas Trees</strong></span
+                        >
+                    </div>
+                    <div class="single-box" id="ball">
+                        <div class="img-area">
+                            <img
+                                src="images/ball.jpg"
+                                width="190"
+                                height="220"
+                                alt="ball"
+                            />
+                        </div>
+                        <span class="header-text"
+                            ><strong>Christmas Balls</strong></span
+                        >
+                    </div>
+                    <div class="single-box" id="star">
+                        <div class="img-area">
+                            <img
+                                src="images/star.jpg"
+                                width="190"
+                                height="220"
+                                alt="star"
+                            />
+                        </div>
+                        <span class="header-text"
+                            ><strong>Christmas Stars</strong></span
+                        >
+                    </div>
+                    <div class="single-box" id="light">
+                        <div class="img-area">
+                            <img
+                                src="images/light.jpg"
+                                width="190"
+                                height="220"
+                                alt="light"
+                            />
+                        </div>
+                        <span class="header-text"
+                            ><strong>Christmas Lights</strong></span
+                        >
+                    </div>
+                    <div class="single-box" id="chocolate">
+                        <div class="img-area">
+                            <img
+                                src="images/chocolate.jpg"
+                                width="190"
+                                height="220"
+                                alt="chocolate"
+                            />
+                        </div>
+                        <span class="header-text"
+                            ><strong>Chocolates</strong></span
+                        >
+                    </div>
+                    <div class="single-box" id="wreath">
+                        <div class="img-area">
+                            <img
+                                src="images/door.jpg"
+                                width="190"
+                                height="220"
+                                alt=""
+                            />
+                        </div>
+                        <span class="header-text"
+                            ><strong>Christmas Wreath</strong></span
+                        >
+                    </div>
+                </div>
+
+                <div class="box-area hidden" id="dynamicDiv"></div>
+            </div>
+        </section>
+
+        <footer>
+            &COPY;2019 by Kiran Bisht
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>

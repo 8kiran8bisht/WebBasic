@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WishTree Christmas Store</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/form_style.css" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <ul id="left-nav">
+                <li class="storeName">
+                    <img
+                        src="images/logo.jpg"
+                        width="70"
+                        height="40"
+                        alt="logo"
+                    />
+                    WishTree
+                </li>
+            </ul>
+
+            <ul id="right-nav">
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </header>
+
+        <section>
+            <div class="header">
+                <img
+                    src="images/header.jpg"
+                    width="1092"
+                    height="250"
+                    alt="header"
+                />
+            </div>
+
+            <div class="main-div">
+                <div class="box-area" id="div-items">
+                    <form
+                        id="form"
+                        name="form"
+                        method="POST"
+                        action="https://httpbin.org/post"
+                    >
+                        <label></label>
+                        <h1>Contact Us</h1>
+                        <label for="username">First Name</label>
+                        <input
+                            id="username"
+                            name="username"
+                            autocomplete="username"
+                            type="text"
+                            required
+                            maxlength="30"
+                            size="20"
+                            autofocus
+                            pattern="[a-zA-Z]+"
+                        />
+                        <label for="lastname">Last Name</label>
+                        <input
+                            id="lastname"
+                            name="lastname"
+                            type="text"
+                            maxlength="30"
+                            required
+                            tabindex="0"
+                        />
+                        <label for="email">Email Address</label>
+                        <input
+                            id="email"
+                            name="email"
+                            placeholder="e.g. abc@xyz.com"
+                            pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
+                            autocomplete="email"
+                            required
+                            type="text"
+                            tabindex="0"
+                        />
+                        <label for="address"> Address</label>
+                        <input
+                            id="address"
+                            name="address"
+                            required
+                            type="text"
+                            tabindex="0"
+                        />
+                        <label for="city">City</label>
+                        <input
+                            id="city"
+                            name="city"
+                            required
+                            placeholder="e.g. Torronto"
+                            tabindex="0"
+                        />
+                        <datalist>
+                            <option value="Toronto"> </option>
+                            <option value="Hamilton"> </option>
+
+                            <option value="London"> </option>
+                            <option value="Ottawa"> </option>
+                        </datalist>
+                        <label for="postalcode">Postal Code</label>
+                        <input
+                            id="postalcode"
+                            name="postalcode"
+                            required
+                            type="text"
+                            tabindex="0"
+                            pattern="^(?!.*[DFIOQU])[A-VXY][0-9][A-Z] ?[0-9][A-Z][0-9]$"
+                        />
+
+                        <label for="tel"> Phone Number</label>
+                        <input
+                            id="tel"
+                            required
+                            name="tel"
+                            autocomplete="tel"
+                            type="text"
+                            tabindex="0"
+                            pattern="^[+]?[0-9]{0,1}[-. ]?\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$"
+                        />
+
+                        <input
+                            id="callMe"
+                            name="callMe"
+                            type="checkbox"
+                            tabindex="0"
+                        />
+                        <label for="callMe">
+                            Would you like to be called?</label
+                        >
+                        <textarea
+                            id="message"
+                            name="message"
+                            tabindex="0"
+                            rows="5"
+                            placeholder="I would like......"
+                        ></textarea>
+                        <input
+                            type="hidden"
+                            name="myname"
+                            id="myname"
+                            value="Kiran Bisht"
+                        />
+                        <input
+                            type="hidden"
+                            name="myid"
+                            id="myid"
+                            value="154683189"
+                        />
+                        <div class="buttons">
+                            <input
+                                type="submit"
+                                name="Submit"
+                                value="Submit"
+                                tabindex="0"
+                            />
+                            <input
+                                type="reset"
+                                name="Reset"
+                                value="Reset"
+                                tabindex="0"
+                            />
+                        </div>
+                    </form>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            &COPY;2019 by Kiran Bisht
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
